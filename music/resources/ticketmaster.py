@@ -13,6 +13,3 @@ class TicketMasterResource(ConfigurableResource):  # type: ignore[misc]
     port: int
 
     def get_url(self) -> str:
-        return get_sql_alchemy_url(
-            self.user, self.password, self.host, self.db, self.port
-        )
