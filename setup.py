@@ -15,5 +15,5 @@ setup(
         "geopandas",
         "seaborn"
     ],
-    extras_require={"dev": ["dagster-webserver", "pytest"]},
+    extras_require={"dev": ["dagster-webserver", "pytest", "RISE"]},
 )
